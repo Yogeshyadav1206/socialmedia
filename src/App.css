@@ -1,0 +1,29 @@
+.align{
+  display: flex;
+}
+.content{
+  width: 100%;
+}
+.sidebar{
+  min-height: 700px;
+}
+.post-card{
+   margin: 20px 50px;
+}
+.hashtag{
+   margin: 0px 3px;
+}
+.reactions{
+  margin: 15px 0 0 0;
+  width:100%;
+} 
+.create-post{
+  width: 80%;
+  margin: 10% 10% 0% 10%;
+}
+.welcome{
+  margin-top: 30px;
+}
+.laoding{
+  margin: 20px;
+}
