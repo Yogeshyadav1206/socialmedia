@@ -43,7 +43,8 @@ function Createpost() {
     })
       .then((res) => res.json())
       .then((post) => {
-        console.log(post);
+        // console.log(post);
+        post.reaction = reaction;
         addpost(post);
         setSelectedTab("Home");
         navigate("/");

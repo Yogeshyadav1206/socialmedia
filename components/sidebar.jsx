@@ -24,7 +24,7 @@ function Sidebar({ selectedTab, setSelectedTab }) {
         >
           <Link
             to="/"
-            className={`nav-link ${selectedTab === "Home" ? "active" : ""}`}
+            className={`nav-link text-white ${selectedTab === "Home" ? "active" : ""}`}
             aria-current="page"
           >
             <svg className="bi pe-none me-2" width="16" height="16">

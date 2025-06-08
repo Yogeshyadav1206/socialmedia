@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import Post from "../../../contextApi2/contapi/src/component/post";
+import Post from "./post";
 import { PostList as PostListData } from "../store/post-list-store";
 import Welcome from "./Welcome";
 import Loading from "./Loading";
